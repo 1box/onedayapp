@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HintDialogs</key>
+	<array>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{75, 115},{75,75}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{75, 115},{75,75}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>♥ New beginning! Click here to start editing a new day.
+
+&quot;One Day&quot; will be based on your input automatically identify the time and create a timeline display more intuitive!</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{45, 285},{75,75}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{45, 285},{75,75}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>
+
+
+
+
+
+
+
+
+Old record! Click here to view the previous record, complete the degree and so on.</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{50, 50},{0,0}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{50, 50},{0,0}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>Smark will:
+
+♥ Intelligent to recognise &quot;time&quot; from text to be start time for todo.
+
+♥ Intelligent to recognise &quot;duration&quot; from text to create end time for todo.
+
+(Shake device to show tips once more)</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

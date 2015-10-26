@@ -1,0 +1,200 @@
+/* 
+  Localizable.strings
+  OneDay
+
+  Created by Yu Tianhang on 12-12-12.
+  Copyright (c) 2012年 Kimi Yu. All rights reserved.
+*/
+
+// date fomatter
+"CurrentDateLocale" ="zh_CN";
+"MonthToDayFormat"  ="MM月dd日";
+
+"Share to friends"   ="推荐给朋友";
+"Email"              ="发送电子邮件";
+"Message"            ="发送短信";
+"_cancel"            ="取 消";
+"_confirm"           ="确 定";
+"TodayDo"            ="今天";
+"Logged"             ="旧的记录";
+"TomorrowDo"         ="移至明天";
+"tags"               ="标签";
+"_recommendApp"      ="精彩推荐";
+"_quickEntryMessage" ="将被插入到最新的一条记录";
+"Go"                 ="打开";
+"OK"                 ="好的";
+"Cancel"             ="取消";
+"See"                ="查看";
+"delete"             ="删除";
+"_done"              ="完成";
+"_edit"              ="编辑";
+"_editDone"          ="退出编辑";
+"_setAsHomepage"     ="设为主页";
+"_resetHomepage"     ="取消主页";
+"_KMAlertViewCancel" ="取  消";
+"_KMAlertViewConfirm"="确  认";
+
+"QuickAddTodoDone"        ="新的便签已添加";
+"MoveAllUndosToToday"     ="所有未完成已经移到今天";
+"CheckAllUndos"           ="所有项目已完成";
+"ShowAllUndosTitle"       ="查看所有未完成";
+"CashMonthSummaryTitle"   ="月收支汇总";
+"CashYearSummaryTitle"    ="年收支汇总";
+"AlarmNotificationTitle"  ="定时提醒";
+"CashMonthSummaryText"    ="月收支: %f";
+"CashYearSummaryText"     ="年收支: %f";
+"DeleteAlarmSuccess"      ="闹铃删除成功";
+"AlarmDataDefaultText"    ="闹钟";
+"CloseAllAlarmSuccess"    ="所有闹铃已关闭";
+"ClearAllBlankTitle"      ="删除没有记录的日期";
+"ClearAllBlankSuccess"    ="没有记录的日期已删除";
+"AlarmNagTypeGentle"      ="轻柔";
+"AlarmNagTypeNag"         ="野蛮";
+"AlarmRepeatTypeEveryDay" ="每天";
+"AlarmRepeatTypeWorkday"  ="工作日";
+"AlarmRepeatTypeNone"     ="不重复";
+"SetAsHomepageSuccess"    ="已将 %@ 设置为主页";
+"ResetHomepageSuccess"    ="已重置到默认主页";
+
+// password
+"LaunchPasswordCellText" = "开机密码";
+"LockLaunchSwitchText" = "开机密码";
+"LockResetSwitchText" = "重置密码";
+
+// dot lock
+"InfoStatusFirstTimeSettingText" ="设置手势密码!";
+"InfoStatusConfirmSettingText"   ="重复上次的输入!";
+"InfoStatusFailedConfirmText"    ="两次输入不匹配, 请重新输入";
+"InfoStatusNormalText"           ="请输入密码!";
+"InfoStatusFailedMatchText"      ="密码不正确, 请重试!";
+"InfoStatusSuccessMatchText"     ="欢迎!";
+
+// tags
+"HomeTag"            ="在家";
+"WorkTag"            ="工作";
+"PriorityTag"        ="优先级";
+"PriorityHighTag"    ="高";
+"PriorityMediumTag"  ="中";
+"PriorityLowTag"     ="低";
+"EnergyTag"          ="难度";
+"EnergyEasyTag"      ="容易";
+"EnergyChallengeTag" ="挑战";
+"StudyTag"           ="学习";
+
+// check update
+"_hasUpdateTitle"          ="发现新版本: %@";
+"_hasUpdateMessage"        ="特别亮点・Special Feature:\n%@";
+"_hasUpdateCancel"         ="稍后再说";
+"_hasUpdateOK"             ="马上下载";
+"_hasUpdateDefaultMessage" ="♥ 爱规划，爱记录，爱生活，我不是神马✗✗神器，我是 ♥一天・One Day.";
+
+// feedback
+"_feedbackSendFail"    ="发送失败!";
+"_feedbackSendSuccess" ="感谢您的反馈!";
+"_hasFeedbacks"        ="有%d条新回复";
+
+// alarm
+"_dailyAlarmNotificationMessage" ="%d项%@";
+"_dailyAlarmNotificationBody"    ="您今天仍有%@没有打钩，快去看看吧!";
+"Go and See"                     ="知道了";
+"Check All"                      ="全部完成";
+
+// date formatter
+"UserFriendlyDateStringToday" ="今天";
+
+// daily do view
+"MoveToTomorrowMessage"   ="将把项目:\" %@ \"移到明天";
+"NoUndoToTomorrowMessage" ="没有可移到明天的项目";
+"MoveToTomorrow"          ="移到明天";
+"_tomorrowDoText"         ="%d条已移到明天";
+
+// daily do
+"DailySchedule"            ="每日计划";
+"TodaySchedule"            ="今日计划";
+"ScheduleTimeline"         ="一天时间表";
+"ScheduleSlogan"           ="学会计划你的一天，你会发现预估越来越准，自己的一天尽在掌握";
+"ScheduleCompleteText"     ="您完成了%0.2f";
+"ScheduleNoText"           ="这一天没有做计划";
+"SchedulePlaceHolder"      ="◉ 输入示例一：\
+◉ 输入 \"吃午饭 11:50 上午\"，将把这条记录的开始时间自动调整为上午11:50\n\
+◉ 输入示例二：\
+◉ 输入 \"睡午觉 12:50 上午 (1小时30分)\"，将自动把这条记录的开始时间调整为上午12:50，结束时间调整为开始时间的1个半小时之后，即: 下午2:20\n\
+◉ 更多可自动识别的示例：\
+◉ \"看电影 4:45 下午 (1.5小时)\"";
+
+"DailyShort"               ="每日缺点";
+"TodayShort"               ="我的缺点";
+"ShortSlogan"              ="缺点并不可怕，记得在适当的时候给它致命一击";
+"ShortPlaceHolder"         ="* 缺点并不可怕，记得在适当的时候给它致命一击！";
+"DailyShortNoText"         ="这一天没有发现缺点";
+"DailyShortCompleteText"   ="发现缺点, 点击查看";
+
+"DailyCash"                ="每日收支";
+"TodayCash"                ="今日收支";
+"CashTimeline"             ="一天资金流";
+"CashSlogan"               ="让你的收支像茶壶一样，宽进严出";
+"CashGainTodayText"        ="今天赚了%0.2f元!";
+"CashLoseTodayText"        ="今天花了%0.2f元!";
+"CashEqualTodayText"       ="今天收支平衡!";
+"CashGainCompleteText"     ="您收入了%0.2f元";
+"CashLoseCompleteText"     ="您支出了%0.2f元";
+"CashEqualCompleteText"    ="收支平衡";
+"CashNoText"               ="今日没有收支记录";
+"CashPlaceHolder"          ="◉ 输入示例一：\
+◉ 输入 \"吃大餐花了500元\"，将自动把这条记录的收支金额记为：支出500元；\n\
+◉ 输入示例二：\
+◉ 输入 \"发工资收入7500元\"，将自动把这条记录的收支金额记为：收入7500元；\n\
+◉ 更多可自动识别的示例：\
+◉ \"买彩票中了5块钱\"；\
+◉ \"去三亚旅游消费40000元\"；";
+
+"DailyWorkout"             ="每日锻炼";
+"TodayWorkout"             ="要做的运动";
+"WorkoutTimeline"          ="运动时间轴";
+"WorkoutSlogan"            ="运动计划既要科学，又要坚持！";
+"WorkoutCompleteText"      ="运动计划完成了%0.2f";
+"WorkoutNoText"            ="这一天没有运动计划";
+"WorkoutPlaceHolder"       ="◉ 输入示例一：\
+◉ 输入 \"跑了1千米\"，将自动把这条记录的距离记为：1000米\n\
+◉ 输入示例二：\
+◉ 输入 \"仰卧起坐30次\"，将自动把记录的次数记为：30次\n";
+
+"DailyCalorie"             ="每日减肥";
+"TodayCalorie"             ="今日减肥记录";
+"CalorieTimeline"          ="一天卡路里";
+"CalorieSlogan"            ="跟他一起努力减肥吧";
+"CalorieGainTodayText"     ="今天共摄取了%0.3f大卡";
+"CalorieLoseTodayText"     ="今天共消耗了%0.3f大卡";
+"CalorieEqualTodayText"    ="今天摄取和消耗刚好平衡";
+"CalorieGainCompleteText"  ="共摄取了%0.3f大卡";
+"CalorieLoseCompleteText"  ="共消耗了%0.3f大卡";
+"CalorieEqualCompleteText" ="摄取和消耗卡路里刚好平衡";
+"CalorieNoText"            ="这一天没有减肥记录";
+"CaloriePlaceHolder"       ="◉ 输入示例一：\
+◉ 输入 \"吃了一盒八喜冰激凌增加了127大卡\"，将自动把这条记录的热量记为 摄入127大卡\n\
+◉ 输入示例二：\
+◉ 输入 \"做瑜伽减了100大卡\"，将自动把这条记录的热量记为：消耗100大卡\n\
+◉ 更多可自动识别的示例：\
+◉ 输入 \"又吃了一盒八喜冰激凌摄取了 127大卡\"";
+
+"DailyMemo"                ="每日便签";
+"TodayMemo"                ="我的便签";
+"MemoTimeline"             ="便签流";
+"MemoSlogan"               ="古时候的便签是刻在我背上的哦";
+"MemoTodayText"            ="%d个便签, %d个未处理";
+"MemoCompleteText"         ="所有便签(%d)都已打钩";
+"MemoNoText"               ="这一天没有便签";
+"MemoPlaceHolder"          ="◉ 古时候的便签是刻在龟背上的哦";
+
+// message
+// https://itunes.apple.com/us/app/yi-tian-ai-ji-hua-ai-ji-lu/id573096972?ls=1&mt=8
+"Share app mail subject" ="分享应用: 一天，专注提高每日生活效率";
+"Share app mail message" ="这个应用不错！帮你梳理每一天! 点击下载：https://itunes.apple.com/us/app/yi-tian-ai-ji-hua-ai-ji-lu/id573096972?ls=1&mt=8";
+"Share app message body" ="这个应用不错！\"一天\"，专注提高生活效率！点击下载：https://itunes.apple.com/us/app/yi-tian-ai-ji-hua-ai-ji-lu/id573096972?ls=1&mt=8";
+"Cannot mail"            ="无法发送邮件";
+
+// pull refresh
+"Pull to refresh..."   ="下拉可以返回";
+"Release to refresh..."="松开即可返回";
+"Loading..."           ="正在返回中";
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Properties</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>todos</string>
+			<key>icon</key>
+			<string>schedule_todos_icon.png</string>
+			<key>type</key>
+			<string>todos</string>
+			<key>displayName</key>
+			<string>TodaySchedule</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>tags</string>
+			<key>icon</key>
+			<string>list_icon_tag.png</string>
+			<key>type</key>
+			<string>tags</string>
+		</dict>
+	</array>
+	<key>Configurations</key>
+	<dict>
+		<key>DefaultUnfold</key>
+		<false/>
+		<key>ShowTimeline</key>
+		<true/>
+		<key>Slogan</key>
+		<string>ScheduleSlogan</string>
+		<key>TimelineTitle</key>
+		<string>ScheduleTimeline</string>
+		<key>PlaceHolder</key>
+		<string>SchedulePlaceHolder</string>
+		<key>ShowQuickEntry</key>
+		<false/>
+		<key>ActionType</key>
+		<integer>103</integer>
+		<key>QuickAddPropertyName</key>
+		<string>todos</string>
+		<key>InputHelperWords</key>
+		<array>
+			<string>(</string>
+			<string>)</string>
+			<string>.</string>
+			<string>小时</string>
+			<string>分</string>
+			<string>h</string>
+			<string>m</string>
+		</array>
+	</dict>
+</dict>
+</plist>

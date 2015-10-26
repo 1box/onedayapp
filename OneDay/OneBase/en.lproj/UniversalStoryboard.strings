@@ -1,0 +1,375 @@
+
+/* Class = "IBUILabel"; text = "_recommendApp"; ObjectID = "0Hg-sr-9ep"; */
+"0Hg-sr-9ep.text" = "Recommend Apps";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "0WI-Vj-lvy"; */
+"0WI-Vj-lvy.title" = "back";
+
+/* Class = "IBUINavigationItem"; title = "_password"; ObjectID = "0Wc-Ym-w5w"; */
+"0Wc-Ym-w5w.title" = "Password";
+
+/* Class = "IBUIBarButtonItem"; title = "dismiss"; ObjectID = "0qA-c3-BO8"; */
+"0qA-c3-BO8.title" = "dismiss";
+
+/* Class = "IBUILabel"; text = "_everyMonday"; ObjectID = "1Ff-ov-atb"; */
+"1Ff-ov-atb.text" = "Every Monday";
+
+/* Class = "IBUILabel"; text = "slogan"; ObjectID = "1cV-gO-ch4"; */
+"1cV-gO-ch4.text" = "slogan";
+
+/* Class = "IBUILabel"; text = "summary"; ObjectID = "2Pg-nW-1Un"; */
+"2Pg-nW-1Un.text" = "summary";
+
+/* Class = "IBUINavigationItem"; title = "_more"; ObjectID = "2iF-aO-0CV"; */
+"2iF-aO-0CV.title" = "More";
+
+/* Class = "IBUITableViewController"; title = "Contact"; ObjectID = "2mp-N6-a04"; */
+"2mp-N6-a04.title" = "Contact";
+
+/* Class = "IBUILabel"; text = "_alarmShowBadge"; ObjectID = "2mz-6K-JVV"; */
+"2mz-6K-JVV.text" = "Show Badge";
+
+/* Class = "IBUILabel"; text = "_alarmSwitch"; ObjectID = "3PM-g2-YNj"; */
+"3PM-g2-YNj.text" = "Daily Alarm On";
+
+/* Class = "IBUILabel"; text = "_everyWednesday"; ObjectID = "3WV-KI-IUe"; */
+"3WV-KI-IUe.text" = "Every Wednesday";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "3cQ-Rt-dP1"; */
+"3cQ-Rt-dP1.title" = "back";
+
+/* Class = "IBUIBarButtonItem"; title = "done"; ObjectID = "4HJ-eg-lX9"; */
+"4HJ-eg-lX9.title" = "done";
+
+/* Class = "IBUIButton"; normalTitle = "_moveToTomorrow"; ObjectID = "4OH-tn-FYV"; */
+"4OH-tn-FYV.normalTitle" = "Move undos to tmr";
+
+/* Class = "IBUILabel"; text = "AM/PM"; ObjectID = "4Qj-7U-Yuo"; */
+"4Qj-7U-Yuo.text" = "AM/PM";
+
+/* Class = "IBUIButton"; normalTitle = "_moreFeedback"; ObjectID = "4fJ-6P-XPL"; */
+"4fJ-6P-XPL.normalTitle" = "Feedback";
+
+/* Class = "IBUIButton"; normalTitle = "_reset"; ObjectID = "4h8-hp-HEm"; */
+"4h8-hp-HEm.normalTitle" = "Reset";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "4xa-5D-UQq"; */
+"4xa-5D-UQq.text" = "Label";
+
+/* Class = "IBUIBarButtonItem"; title = "done"; ObjectID = "5Vo-Ep-8xu"; */
+"5Vo-Ep-8xu.title" = "done";
+
+/* Class = "IBUIButton"; normalTitle = "_done"; ObjectID = "5iP-28-KYc"; */
+"5iP-28-KYc.normalTitle" = "Done";
+
+/* Class = "IBUILabel"; text = "_moreContactUs"; ObjectID = "6eu-9B-Mrb"; */
+"6eu-9B-Mrb.text" = "Contact Us";
+
+/* Class = "IBUINavigationItem"; title = "_addAlarm"; ObjectID = "7QW-4q-pYn"; */
+"7QW-4q-pYn.title" = "Add alarm";
+
+/* Class = "IBUINavigationItem"; title = "_undos"; ObjectID = "7hk-9D-kQZ"; */
+"7hk-9D-kQZ.title" = "Undos";
+
+/* Class = "IBUILabel"; text = "_everySunday"; ObjectID = "953-oC-g4w"; */
+"953-oC-g4w.text" = "Every Sunday";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "9Jp-lb-a2k"; */
+"9Jp-lb-a2k.text" = "Detail";
+
+/* Class = "IBUINavigationItem"; title = "_summary"; ObjectID = "9bB-T6-hM0"; */
+"9bB-T6-hM0.title" = "Summary";
+
+/* Class = "IBUITextField"; text = "_alarmTextFieldPlaceHolder"; ObjectID = "AzU-Id-QLu"; */
+"AzU-Id-QLu.text" = "";
+
+/* Class = "IBUILabel"; text = "line"; ObjectID = "BQG-4U-uaN"; */
+"BQG-4U-uaN.text" = "line";
+
+/* Class = "IBUINavigationItem"; title = "_editAlarmRepeatType"; ObjectID = "BlB-bm-0MJ"; */
+"BlB-bm-0MJ.title" = "Edit Repeat";
+
+/* Class = "IBUILabel"; text = "content"; ObjectID = "CwJ-Vh-LUm"; */
+"CwJ-Vh-LUm.text" = "content";
+
+/* Class = "IBUILabel"; text = "property name"; ObjectID = "DCp-ll-Szg"; */
+"DCp-ll-Szg.text" = "property name";
+
+/* Class = "IBUIButton"; normalTitle = "_allUnfold"; ObjectID = "E7A-VR-0Ir"; */
+"E7A-VR-0Ir.normalTitle" = "Unfold";
+
+/* Class = "IBUIButton"; selectedTitle = "_allFold"; ObjectID = "E7A-VR-0Ir"; */
+"E7A-VR-0Ir.selectedTitle" = "Fold";
+
+/* Class = "IBUILabel"; text = "day"; ObjectID = "EEj-44-DwK"; */
+"EEj-44-DwK.text" = "day";
+
+/* Class = "IBUINavigationItem"; title = "_feedback"; ObjectID = "F5H-Hg-cWy"; */
+"F5H-Hg-cWy.title" = "Feedback";
+
+/* Class = "IBUIButton"; normalTitle = "_done"; ObjectID = "Fq3-LX-nez"; */
+"Fq3-LX-nez.normalTitle" = "Done";
+
+/* Class = "IBUILabel"; text = "Welcome to One Day!"; ObjectID = "G1g-kF-cJl"; */
+"G1g-kF-cJl.text" = "Welcome to One Day!";
+
+/* Class = "IBUILabel"; text = "_autoAddToDailyDo"; ObjectID = "GFZ-kv-MM0"; */
+"GFZ-kv-MM0.text" = "Auto add to daily do";
+
+/* Class = "IBUILabel"; text = "tomorrow do"; ObjectID = "GSX-NQ-3hG"; */
+"GSX-NQ-3hG.text" = "tomorrow do";
+
+/* Class = "IBUILabel"; text = "22:52"; ObjectID = "Gfb-ZY-M32"; */
+"Gfb-ZY-M32.text" = "22:52";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "Gnd-g8-CPg"; */
+"Gnd-g8-CPg.title" = "back";
+
+/* Class = "IBUILabel"; text = "Repeat Detail"; ObjectID = "HRM-TH-gHo"; */
+"HRM-TH-gHo.text" = "Repeat Detail";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "HYA-hs-oPF"; */
+"HYA-hs-oPF.text" = "Label";
+
+/* Class = "IBUIBarButtonItem"; title = "done"; ObjectID = "HYO-Ce-EOr"; */
+"HYO-Ce-EOr.title" = "done";
+
+/* Class = "IBUILabel"; text = "date"; ObjectID = "IrW-3a-wY7"; */
+"IrW-3a-wY7.text" = "date";
+
+/* Class = "IBUIButton"; normalTitle = "_send"; ObjectID = "JNa-OU-jFe"; */
+"JNa-OU-jFe.normalTitle" = "Send";
+
+/* Class = "IBUILabel"; text = "_moreTips"; ObjectID = "JaC-4y-fW7"; */
+"JaC-4y-fW7.text" = "Tips";
+
+/* Class = "IBUINavigationItem"; title = "_tags"; ObjectID = "JaX-v7-69t"; */
+"JaX-v7-69t.title" = "Tags";
+
+/* Class = "IBUILabel"; text = "Tap or swipe to begin."; ObjectID = "MFx-5Q-0Po"; */
+"MFx-5Q-0Po.text" = "Tap or swipe to begin.";
+
+/* Class = "IBUINavigationItem"; title = "_editAlarmContent"; ObjectID = "Nlw-1M-6dI"; */
+"Nlw-1M-6dI.title" = "Edit Content";
+
+/* Class = "IBUILabel"; text = "_alarmText"; ObjectID = "Oz2-lg-lCa"; */
+"Oz2-lg-lCa.text" = "Content";
+
+/* Class = "IBUILabel"; text = "_everyTuesday"; ObjectID = "Pzj-w6-OuJ"; */
+"Pzj-w6-OuJ.text" = "Every Tuesday";
+
+/* Class = "IBUILabel"; text = "root tag"; ObjectID = "QG0-h7-1r1"; */
+"QG0-h7-1r1.text" = "root tag";
+
+/* Class = "IBUILabel"; text = "property name"; ObjectID = "QLq-od-xJc"; */
+"QLq-od-xJc.text" = "property name";
+
+/* Class = "IBUILabel"; text = "_everyFriday"; ObjectID = "R4q-Si-x66"; */
+"R4q-Si-x66.text" = "Every Friday";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "RD3-4D-mIa"; */
+"RD3-4D-mIa.title" = "back";
+
+/* Class = "IBUIButton"; normalTitle = "_done"; ObjectID = "RWi-KW-N7O"; */
+"RWi-KW-N7O.normalTitle" = "Done";
+
+/* Class = "IBUIButton"; normalTitle = "_addAlarm"; ObjectID = "S3P-ci-K5A"; */
+"S3P-ci-K5A.normalTitle" = "Add Alarm";
+
+/* Class = "IBUIBarButtonItem"; title = "close all"; ObjectID = "SEN-fm-Qsr"; */
+"SEN-fm-Qsr.title" = "close all";
+
+/* Class = "IBUILabel"; text = "month"; ObjectID = "The-jf-KoF"; */
+"The-jf-KoF.text" = "month";
+
+/* Class = "IBUINavigationItem"; title = "_homeCover"; ObjectID = "TkH-JC-qGr"; */
+"TkH-JC-qGr.title" = "Backdrop";
+
+/* Class = "IBUIButton"; normalTitle = "_edit"; ObjectID = "Tlq-zG-9FT"; */
+"Tlq-zG-9FT.normalTitle" = "Edit";
+
+/* Class = "IBUINavigationItem"; title = "_alarmClock"; ObjectID = "Tqu-Vt-MLd"; */
+"Tqu-Vt-MLd.title" = "Alarm Clock";
+
+/* Class = "IBUIButton"; normalTitle = "_closeAll"; ObjectID = "UBb-Zq-L1T"; */
+"UBb-Zq-L1T.normalTitle" = "Close All";
+
+/* Class = "IBUILabel"; text = "_alarmSoundSwitch"; ObjectID = "UiO-Uw-bRI"; */
+"UiO-Uw-bRI.text" = "Alarm Sound";
+
+/* Class = "IBUIButton"; normalTitle = "_addTodo"; ObjectID = "UuR-Qr-15r"; */
+"UuR-Qr-15r.normalTitle" = "Add Todo";
+
+/* Class = "IBUIButton"; normalTitle = "_closeAll"; ObjectID = "WF7-fO-LKx"; */
+"WF7-fO-LKx.normalTitle" = "Close All";
+
+/* Class = "IBUINavigationItem"; title = "_addons"; ObjectID = "WNp-JV-uPn"; */
+"WNp-JV-uPn.title" = "Addons";
+
+/* Class = "IBUIButton"; normalTitle = "_checkAll"; ObjectID = "WP8-S3-wLj"; */
+"WP8-S3-wLj.normalTitle" = "Check All";
+
+/* Class = "IBUILabel"; text = "_contactByEmail"; ObjectID = "Wm2-k8-ga5"; */
+"Wm2-k8-ga5.text" = "Contact by Email";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "X9M-zN-MdL"; */
+"X9M-zN-MdL.title" = "back";
+
+/* Class = "IBUIButton"; normalTitle = "_done"; ObjectID = "XuM-KH-JQx"; */
+"XuM-KH-JQx.normalTitle" = "Done";
+
+/* Class = "IBUILabel"; text = "second level tag"; ObjectID = "YmR-iR-HcC"; */
+"YmR-iR-HcC.text" = "second level tag";
+
+/* Class = "IBUIButton"; normalTitle = "_save"; ObjectID = "aqS-uB-xhH"; */
+"aqS-uB-xhH.normalTitle" = "Save";
+
+/* Class = "IBUILabel"; text = "n"; ObjectID = "b4M-uG-aKa"; */
+"b4M-uG-aKa.text" = "n";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "bZj-En-5G8"; */
+"bZj-En-5G8.title" = "back";
+
+/* Class = "IBUILabel"; text = "note"; ObjectID = "bxB-Kx-86J"; */
+"bxB-Kx-86J.text" = "note";
+
+/* Class = "IBUINavigationItem"; title = "_contactUs"; ObjectID = "cLa-wW-Dvp"; */
+"cLa-wW-Dvp.title" = "Contact Us";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "chB-UC-Tr6"; */
+"chB-UC-Tr6.title" = "back";
+
+/* Class = "IBUIButton"; normalTitle = "_homecover"; ObjectID = "ego-I7-Kpg"; */
+"ego-I7-Kpg.normalTitle" = "Backdrop";
+
+/* Class = "IBUILabel"; text = "_moreRate"; ObjectID = "emm-HA-D1Z"; */
+"emm-HA-D1Z.text" = "Rate me";
+
+/* Class = "IBUILabel"; text = "repeat type"; ObjectID = "fBs-63-jRH"; */
+"fBs-63-jRH.text" = "Repeat";
+
+/* Class = "IBUILabel"; text = "complete"; ObjectID = "fEk-d6-OSN"; */
+"fEk-d6-OSN.text" = "complete";
+
+/* Class = "IBUILabel"; text = "property name"; ObjectID = "gTH-Nh-8MY"; */
+"gTH-Nh-8MY.text" = "property name";
+
+/* Class = "IBUIButton"; normalTitle = "remove"; ObjectID = "gUV-5m-1ru"; */
+"gUV-5m-1ru.normalTitle" = "remove";
+
+/* Class = "IBUILabel"; text = "Tap, or drag the checkmark to the cloud to enable iCloud."; ObjectID = "gVi-Yh-ucM"; */
+"gVi-Yh-ucM.text" = "Tap, or drag the checkmark to the cloud to enable iCloud.";
+
+/* Class = "IBUILabel"; text = "_repeatType"; ObjectID = "gsS-Z8-JeD"; */
+"gsS-Z8-JeD.text" = "Repeat type";
+
+/* Class = "IBUILabel"; text = "property name"; ObjectID = "gzz-gm-goz"; */
+"gzz-gm-goz.text" = "property name";
+
+/* Class = "IBUILabel"; text = "_contactByTwitter"; ObjectID = "h4f-DJ-dar"; */
+"h4f-DJ-dar.text" = "Contact by Twitter";
+
+/* Class = "IBUIButton"; normalTitle = "_done"; ObjectID = "h5w-xT-dse"; */
+"h5w-xT-dse.normalTitle" = "Done";
+
+/* Class = "IBUIBarButtonItem"; title = "done"; ObjectID = "hEx-eB-jk0"; */
+"hEx-eB-jk0.title" = "done";
+
+/* Class = "IBUINavigationItem"; title = "_newTag"; ObjectID = "hGz-Ua-Oan"; */
+"hGz-Ua-Oan.title" = "New Tag";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "hmh-6t-SSj"; */
+"hmh-6t-SSj.title" = "back";
+
+/* Class = "IBUILabel"; text = "_everyThursday"; ObjectID = "iBf-js-TxW"; */
+"iBf-js-TxW.text" = "Every Thursday";
+
+/* Class = "IBUILabel"; text = "_moreShareToFriends"; ObjectID = "jCp-KQ-hrm"; */
+"jCp-KQ-hrm.text" = "Share to Friends";
+
+/* Class = "IBUILabel"; text = "Nag type"; ObjectID = "jgJ-PI-KMp"; */
+"jgJ-PI-KMp.text" = "Nag";
+
+/* Class = "IBUILabel"; text = "_morePassword"; ObjectID = "jr1-Cg-EM7"; */
+"jr1-Cg-EM7.text" = "Password";
+
+/* Class = "IBUILabel"; text = "_everySaturday"; ObjectID = "k0I-dN-haR"; */
+"k0I-dN-haR.text" = "Every Saturday";
+
+/* Class = "IBUILabel"; text = "_contactByWeibo"; ObjectID = "lqn-MP-fe0"; */
+"lqn-MP-fe0.text" = "Contact by Weibo";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "m62-jd-vyw"; */
+"m62-jd-vyw.title" = "back";
+
+/* Class = "IBUILabel"; text = "title"; ObjectID = "my4-ZI-zXj"; */
+"my4-ZI-zXj.text" = "title";
+
+/* Class = "IBUILabel"; text = "Tags"; ObjectID = "nQ8-Dz-HH5"; */
+"nQ8-Dz-HH5.text" = "Tags";
+
+/* Class = "IBUILabel"; text = "title"; ObjectID = "nXH-gg-HdU"; */
+"nXH-gg-HdU.text" = "title";
+
+/* Class = "IBUIButton"; normalTitle = "_moveAllToToday"; ObjectID = "oUq-WG-6RZ"; */
+"oUq-WG-6RZ.normalTitle" = "Move all to today";
+
+/* Class = "IBUILabel"; text = "date"; ObjectID = "rKl-vs-Kpi"; */
+"rKl-vs-Kpi.text" = "date";
+
+/* Class = "IBUIBarButtonItem"; title = "edit"; ObjectID = "rXN-AC-nZ1"; */
+"rXN-AC-nZ1.title" = "edit";
+
+/* Class = "IBUIBarButtonItem"; title = "more to tmr"; ObjectID = "tYQ-Ow-VdS"; */
+"tYQ-Ow-VdS.title" = "more to tmr";
+
+/* Class = "IBUILabel"; text = "text"; ObjectID = "tfP-WX-Cc7"; */
+"tfP-WX-Cc7.text" = "text";
+
+/* Class = "IBUIBarButtonItem"; title = "dismiss"; ObjectID = "tuM-2T-EDR"; */
+"tuM-2T-EDR.title" = "dismiss";
+
+/* Class = "IBUIBarButtonItem"; title = "reset"; ObjectID = "u1I-cT-JW6"; */
+"u1I-cT-JW6.title" = "reset";
+
+/* Class = "IBUILabel"; text = "_alarmPicker"; ObjectID = "u2C-m0-cvA"; */
+"u2C-m0-cvA.text" = "Alarm Time";
+
+/* Class = "IBUIBarButtonItem"; title = "done"; ObjectID = "u36-7n-CzH"; */
+"u36-7n-CzH.title" = "done";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "vYj-nH-Ugr"; */
+"vYj-nH-Ugr.title" = "back";
+
+/* Class = "IBUIBarButtonItem"; title = "back"; ObjectID = "xBg-SH-t35"; */
+"xBg-SH-t35.title" = "back";
+
+/* Class = "IBUINavigationItem"; title = "_tips"; ObjectID = "xb8-hh-Gp2"; */
+"xb8-hh-Gp2.title" = "Tips";
+
+/* Class = "IBUILabel"; text = "Text Detail"; ObjectID = "xhA-vd-qfG"; */
+"xhA-vd-qfG.text" = "Text Detail";
+
+/* Class = "IBUILabel"; text = "_randomCartoonSwitch"; ObjectID = "xnt-U5-NO3"; */
+"xnt-U5-NO3.text" = "Random Cartoon";
+
+/* Class = "IBUILabel"; text = "date"; ObjectID = "y9r-Ds-oFK"; */
+"y9r-Ds-oFK.text" = "date";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "zAS-TV-gqI"; */
+"zAS-TV-gqI.text" = "Label";
+
+/* Class = "IBUILabel"; text = "_nagType"; ObjectID = "zg1-r9-9Ac"; */
+"zg1-r9-9Ac.text" = "Nag";
+
+/* Class = "IBUIButton"; normalTitle = "_cancel"; ObjectID = "BYP-n1-sgm"; */
+"BYP-n1-sgm.normalTitle" = "Cancel";
+
+/* Class = "IBUIButton"; normalTitle = "_confirm"; ObjectID = "Ill-w4-dSk"; */
+"Ill-w4-dSk.normalTitle" = "Confirm";
+
+/* Class = "IBUIButton"; normalTitle = "_cancel"; ObjectID = "fr8-Gz-DjM"; */
+"fr8-Gz-DjM.normalTitle" = "Cancel";
+
+/* Class = "IBUIButton"; normalTitle = "_confirm"; ObjectID = "smV-lE-YdP"; */
+"smV-lE-YdP.normalTitle" = "Confirm";

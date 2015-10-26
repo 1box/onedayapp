@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Properties</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>todos</string>
+			<key>icon</key>
+			<string>workout_todos_icon.png</string>
+			<key>type</key>
+			<string>todos</string>
+			<key>displayName</key>
+			<string>TodayWorkout</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>tags</string>
+			<key>icon</key>
+			<string>list_icon_tag.png</string>
+			<key>type</key>
+			<string>tags</string>
+		</dict>
+	</array>
+	<key>Configurations</key>
+	<dict>
+		<key>DefaultUnfold</key>
+		<false/>
+		<key>ShowTimeline</key>
+		<true/>
+		<key>Slogan</key>
+		<string>WorkoutSlogan</string>
+		<key>TimelineTitle</key>
+		<string>WorkoutTimeline</string>
+		<key>PlaceHolder</key>
+		<string>WorkoutPlaceHolder</string>
+		<key>ShowQuickEntry</key>
+		<false/>
+		<key>ActionType</key>
+		<integer>103</integer>
+		<key>QuickAddPropertyName</key>
+		<string>todos</string>
+		<key>InputHelperWords</key>
+		<array>
+			<string>次</string>
+			<string>个</string>
+			<string>times</string>
+		</array>
+	</dict>
+</dict>
+</plist>

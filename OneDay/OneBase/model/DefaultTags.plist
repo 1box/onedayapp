@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultTags</key>
+	<array>
+		<string>HomeTag</string>
+		<string>WorkTag</string>
+		<dict>
+			<key>PriorityTag</key>
+			<array>
+				<string>PriorityHighTag</string>
+				<string>PriorityMediumTag</string>
+				<string>PriorityLowTag</string>
+			</array>
+		</dict>
+		<dict>
+			<key>EnergyTag</key>
+			<array>
+				<string>EnergyEasyTag</string>
+				<string>EnergyChallengeTag</string>
+			</array>
+		</dict>
+		<string>StudyTag</string>
+	</array>
+</dict>
+</plist>

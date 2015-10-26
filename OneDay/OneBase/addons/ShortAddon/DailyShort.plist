@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Properties</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>shortContent</string>
+			<key>icon</key>
+			<string>short_notes_icon.png</string>
+			<key>type</key>
+			<string>string</string>
+			<key>displayName</key>
+			<string>TodayShort</string>
+		</dict>
+	</array>
+	<key>Configurations</key>
+	<dict>
+		<key>DefaultUnfold</key>
+		<false/>
+		<key>ShowTimeline</key>
+		<false/>
+		<key>Slogan</key>
+		<string>ShortSlogan</string>
+		<key>PlaceHolder</key>
+		<string>ShortPlaceHolder</string>
+		<key>ShowQuickEntry</key>
+		<false/>
+		<key>ActionType</key>
+		<integer>66</integer>
+		<key>QuickAddPropertyName</key>
+		<string>shortContent</string>
+	</dict>
+</dict>
+</plist>

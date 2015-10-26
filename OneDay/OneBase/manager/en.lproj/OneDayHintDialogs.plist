@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HintDialogs</key>
+	<array>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{65, 114},{60,60}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{65, 114},{60,60}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>Reorder addons by long press.
+
+♥ &quot;One Day&quot;，focusing to enhance the efficiency of daily life!</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{135, 198},{45,45}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{135, 198},{45,45}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>◉ Click  button at left-up corner could quick input a memo
+
+◉ Long press also offer to turn into edit mode</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{295, 284},{50,50}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{295, 377},{50,50}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>&quot;One Day&quot; use &quot;Smark&quot; input format:
+
+♥ Intelligent recognition
+♥ Speedy input
+♥ Esay to use
+
+Click here for details.</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{300, 440},{50,50}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{300, 527},{50,50}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>Click here to add new project.
+
+♥ Start experimenting!
+
+(Shake device will show tips once more)</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

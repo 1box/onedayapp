@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HintDialogs</key>
+	<array>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{75, 150},{50,50}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{75, 150},{50,50}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>♥ 每日计划将自动识别输入文本中的&quot;时间&quot;、&quot;时长&quot;信息
+
+例如输入：
+
+&quot;吃午饭 11:50 上午&quot;，记录的开始时间会自动调整为上午11:50</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

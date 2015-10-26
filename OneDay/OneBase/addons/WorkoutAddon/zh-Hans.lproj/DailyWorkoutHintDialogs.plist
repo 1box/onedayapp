@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HintDialogs</key>
+	<array>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{75, 150},{50,50}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{75, 150},{50,50}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>♥ 每日卡路里不仅支持时间、时长，还支持对&quot;距离&quot;、&quot;次数&quot;的自动识别.
+
+(详情请见输入示例)</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

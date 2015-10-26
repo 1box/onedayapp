@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HintDialogs</key>
+	<array>
+		<dict>
+			<key>kHintDialogFramesKey</key>
+			<array>
+				<string>{{75, 150},{50,50}}</string>
+			</array>
+			<key>kHintDialogFramesKey-568</key>
+			<array>
+				<string>{{75, 150},{50,50}}</string>
+			</array>
+			<key>kHintDialogMessageKey</key>
+			<string>♥ Beside &quot;time&quot; and &quot;duration&quot;, daily workout also support:
+
+automaticly recognize &quot;distance&quot;
+automaticly recognize &quot;times&quot;
+
+(More to see input samples)</string>
+			<key>kHintDialogImageKey</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

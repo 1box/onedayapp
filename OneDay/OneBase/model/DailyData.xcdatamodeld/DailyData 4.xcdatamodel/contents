@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AddonData" representedClassName="AddonData" syncable="YES">
+        <attribute name="cartoon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dailyDoName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detectType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="display" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfCartoons" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="showChecked" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tipImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="alarms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AlarmData" inverseName="addon" inverseEntity="AlarmData" syncable="YES"/>
+        <relationship name="dailyDos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DailyDoBase" inverseName="addon" inverseEntity="DailyDoBase" syncable="YES"/>
+    </entity>
+    <entity name="AlarmData" representedClassName="AlarmData" syncable="YES">
+        <attribute name="alarmTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="open" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="repeatType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="addon" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="AddonData" inverseName="alarms" inverseEntity="AddonData" syncable="YES"/>
+        <relationship name="todos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TodoData" inverseName="alarm" inverseEntity="TodoData" syncable="YES"/>
+    </entity>
+    <entity name="DailyCalorieData" representedClassName="DailyCalorie" parentEntity="DailyDoBase" syncable="YES"/>
+    <entity name="DailyCashData" representedClassName="DailyCash" parentEntity="DailyDoBase" syncable="YES"/>
+    <entity name="DailyDoBase" representedClassName="DailyDoBase" syncable="YES">
+        <attribute name="createTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="addon" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="AddonData" inverseName="dailyDos" inverseEntity="AddonData" syncable="YES"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TagData" inverseName="dailyDos" inverseEntity="TagData" syncable="YES"/>
+        <relationship name="todos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TodoData" inverseName="dailyDo" inverseEntity="TodoData" syncable="YES"/>
+    </entity>
+    <entity name="DailyMemoData" representedClassName="DailyMemo" parentEntity="DailyDoBase" syncable="YES"/>
+    <entity name="DailyScheduleData" representedClassName="DailySchedule" parentEntity="DailyDoBase" syncable="YES">
+        <attribute name="notes" optional="YES" attributeType="String" elementID="notes" syncable="YES"/>
+    </entity>
+    <entity name="DailyShortData" representedClassName="DailyShort" parentEntity="DailyDoBase" syncable="YES">
+        <attribute name="shortContent" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DailyWorkoutData" representedClassName="DailyWorkout" parentEntity="DailyDoBase" syncable="YES"/>
+    <entity name="TagData" representedClassName="TagData" syncable="YES">
+        <attribute name="createTime" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="superTag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dailyDos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DailyDoBase" inverseName="tags" inverseEntity="DailyDoBase" syncable="YES"/>
+    </entity>
+    <entity name="TodoData" representedClassName="TodoData" syncable="YES">
+        <attribute name="caloric" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="check" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="eventColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="money" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="alarm" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="AlarmData" inverseName="todos" inverseEntity="AlarmData" syncable="YES"/>
+        <relationship name="dailyDo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DailyDoBase" inverseName="todos" inverseEntity="DailyDoBase" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AddonData" positionX="160" positionY="192" width="128" height="225"/>
+        <element name="AlarmData" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="DailyCalorieData" positionX="160" positionY="192" width="128" height="45"/>
+        <element name="DailyCashData" positionX="160" positionY="192" width="128" height="45"/>
+        <element name="DailyDoBase" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="DailyMemoData" positionX="160" positionY="192" width="128" height="45"/>
+        <element name="DailyScheduleData" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="DailyShortData" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="DailyWorkoutData" positionX="160" positionY="192" width="128" height="45"/>
+        <element name="TagData" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="TodoData" positionX="160" positionY="192" width="128" height="270"/>
+    </elements>
+</model>

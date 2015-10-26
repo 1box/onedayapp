@@ -1,0 +1,571 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0; }
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+ul :last-child, ol :last-child {
+  margin-bottom: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+    
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0px auto;
+    }
+}
+</style>
+<title>用户反馈开发指南</title>
+
+</head>
+<body>
+<h2>1. HTML版本用户反馈</h2>
+
+<blockquote><p>集成</p></blockquote>
+
+<p>把<code>libUMFeedback.a</code>，<code>umFeedback.bundle</code>，<code>UMFeedback.h</code>加入工程。</p>
+
+<h3>1. -(void)showFeedback:withAppkey:</h3>
+
+<p>使用HTML页面来展现用户反馈，取数据，发反馈，缓存等都是自动完成的。</p>
+
+<p>在需要弹出用户反馈的地方添加代码:</p>
+
+<p><code>objectivec
+[UMFeedback showFeedback:(UIViewController *)viewController withAppkey:(NSString *)appKey];
+</code></p>
+
+<p>第一个参数<code>(UIViewController *)viewController</code>为HTML反馈弹出时的<code>viewController</code>,</p>
+
+<p> 反馈的界面是通过调用<code>UIViewController</code>的<code>presentModalViewController:animated:</code>方法实现的。</p>
+
+<p>如果需要自定义CSS或数据项的话，可以修改<code>umFeedback.bundle</code>里的<code>main.css</code>或<code>main.js</code>。</p>
+
+<p>目前HTML版的用户反馈支持了中文和英文界面，如果需要其他语言的支持，请拷贝chat_zh-Hans.html为chat_xx.html(xx为语言标记,ja等),修改html里的语言文本及<code>main.js</code>里<code>CONFIG</code>里的字符串常量。</p>
+
+<p>如果需要在用户反馈数据里添加自定义字段，则需要修改<code>main.js</code>的<code>submitForm</code>函数。</p>
+
+<blockquote><p>Demo</p></blockquote>
+
+<pre><code>//自定义字段，目前有提供了两个自定义Hash可用
+//contact 用于传递联系方式，比如email,qq,phone等
+//remark 用于传递备注信息，比如用户名,网址等等
+// 参见下面两个例子,这里我们添加了网页表单id为email和user_name
+var email = document.getElementById("email").value;
+if (!!email) {
+   result.contact.email = email;
+}
+var userName = document.getElementById("user_name").value;
+if (!!userName) {
+   result.remark.userName = userName;
+}
+</code></pre>
+
+<p><img src="http://dev.umeng.com/images/1-17.jpg" alt="用户反馈" title="用户反馈" style="width: 300px;"></p>
+
+<h3>2. -(void)showFeedback:withAppkey:dictionary:</h3>
+
+<p>功能同<code>showFeedback:withAppkey:</code>, 第三个参数<code>dictionary</code>的作用是传递数据至<code>main.js</code> 的
+<code>FeedbackJSON</code>变量中。</p>
+
+<p>开发者可能想在app中得到某个变量，然后发表反馈时自动填入到某个字段中，这时候就需要此方法。</p>
+
+<blockquote><p>Demo</p></blockquote>
+
+<pre><code>[UMFeedback showFeedback:self withAppkey:UMENG_APPKEY dictionary:[NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:@"a", @"b", @"c", nil] forKey:@"hello"]];
+</code></pre>
+
+<p>此时<code>main.js</code>中<code>FeedbackJSON</code>的值为<code>{"hello":["a","b","c"]}</code>,</p>
+
+<p>修改<code>submitForm</code>方法，把需要的值传入<code>contact</code>和<code>remark</code>既可。</p>
+
+<hr />
+
+<h2>2. Native数据接口</h2>
+
+<blockquote><p>集成</p></blockquote>
+
+<p>把<code>libUMFeedback.a</code>，<code>UMFeedback.h</code>加入工程。</p>
+
+<p>如果需要HTML版本的反馈，同时需要加入<code>umFeedback.bundle</code>。</p>
+
+<h3>1. +(UMFeedback *)sharedInstance</h3>
+
+<h3>-(void)setAppkey:(NSString *)appKey delegate:</h3>
+
+<p>如果需要使用数据接口，则需要得到一个<code>UMFeedback</code>单例,传入友盟的<code>appkey</code>和<code>delegate</code>。</p>
+
+<blockquote><p>Demo</p></blockquote>
+
+<pre><code>UMFeedback *umFeedback = [UMFeedback sharedInstance];
+[umFeedback setAppkey:UMENG_APPKEY delegate:self];
+</code></pre>
+
+<p>在需要的地方加上<code>UMFeedbackDataDelegate</code>,</p>
+
+<blockquote><p>Demo</p></blockquote>
+
+<pre><code>@interface ViewController  : UIViewController &lt;UMFeedbackDataDelegate&gt;
+</code></pre>
+
+<p>在<code>dealloc</code>里设置<code>umFeedback</code>的<code>delegate</code> 为<code>nil</code>。</p>
+
+<pre><code>- (void)dealloc {
+    umFeedback.delegate = nil;
+}
+</code></pre>
+
+<p>数据接口有三个: <code>get</code>,<code>post:</code>,<code>checkWithAppkey:</code> 用于完成取，发和检查。</p>
+
+<h3>2. -(void)get</h3>
+
+<p><code>get</code> 方法获取最新的用户反馈数据，异步方法，需要实现<code>getFinishedWithError:</code> delegate来完成回调。</p>
+
+<p>如果<code>error</code> 为<code>nil</code>表示<code>get</code>正确完成，取实例的<code>topicAndReplies</code>属性即可获取最新的用户反馈数据。
+常见的场景是当<code>error</code> 为<code>nil</code>时刷新<code>UITableView</code>。</p>
+
+<p><code>topicAndReplies</code> 为<code>NSMutableArray</code>，第一项为 <code>topic</code>,既用户发表的第一条主题，其余项为<code>Replies</code>,包括开发者回复的和用户回复的。两者的区别在<code>type</code>字段。</p>
+
+<pre><code>if ([reply objectForKey:@"type"] isEqualToString:@"dev_reply"]){
+    NSLog(@"开发者回复");
+}else{
+    NSLog(@"用户回复");
+}   
+</code></pre>
+
+<p>如果想获取当次检查的<code>newReplies</code>(新回复),取实例的<code>newReplies</code>属性即可。</p>
+
+<p><code>topicAndReplies</code> 在取到数据后被缓存在<code>NSUserDefaults</code>,缓存这部分不需要自己去管理。</p>
+
+<p>当次检查是指从上次<code>get</code>或<code>check</code>发生到现在为止，开发者给用户回复的数据，同样也是<code>NSMutableArray</code>类型，取这个数据可以完成通知提示，告诉用户有几条新回复。同样调用<code>check</code>方法可以达到同样的目的。</p>
+
+<p><code>newReplies</code> 大部分情况下都为<code>nil</code>,只在当次有新回复时才有值。</p>
+
+<h3>3. -(void)post:</h3>
+
+<p><code>post</code> 方法发布用户反馈，异步方法，需要实现<code>postFinishedWithError:</code> delegate来完成回调。
+用户发第一条主题和以后的回复都是使用<code>post</code>方法。</p>
+
+<p>如果<code>error</code> 为<code>nil</code>表示<code>post</code>正确完成。</p>
+
+<p>常见的场景是当<code>error</code> 为<code>nil</code>时告知用户发送成功。</p>
+
+<p><code>post</code>参数为<code>NSDictionary *</code>类型,其中可以包含的字段和说明见下面描述,其中<code>contact</code>和<code>remark</code>字段为自定义字段，用户可以传递自定义的内容。</p>
+
+<p>feedback_dictionary 包含的有效key、含义、类型、取值如下：</p>
+
+<pre><code>gender,     性别,      NSString, "1"或"male"为男 "0"或"female" 为女
+age_group,  年龄段,    NSString, "1"..."8",对应表如下
+content,    反馈内容,  NSString,  长度不应超过255个字符
+remark,     备注,      NSDictionary, 可以存放自定义的内容，比如评分等
+contact,    联系方式，  NSDictionary, 可以存放和用户信息相关的内容，比如用户名等
+
+"remark"和"contact"两个字段可供开发者传入自定义内容，这些内容会在网页上展现.
+
+"age_group" 取值和年龄段对照表
+"1" 小于18岁
+"2" 18～24岁
+"3" 25～30岁
+"4" 31～35岁
+"5" 36～40岁
+"6" 41～50岁
+"7" 51～59岁
+"8" 大于60岁
+</code></pre>
+
+<blockquote><p>demo</p></blockquote>
+
+<pre><code>NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+[dictionary setObject:textFiled.text forKey:@"content"];
+[dictionary setObject:@"2" forKey:@"age_group"];
+[dictionary setObject:@"female" forKey:@"gender"];
+NSDictionary *contact = [NSDictionary dictionaryWithObject:_emailField.text forKey:@"email"];
+[dictionary setObject:contact forKey:@"contact"];
+NSDictionary *remark = [NSDictionary dictionaryWithObject:_nameField.text forKey:@"name"];
+[dictionary setObject:remark forKey:@"remark"];
+[self.umFeedback postFeedback:dictionary];
+</code></pre>
+
+<h3>4. + (void)checkWithAppkey:</h3>
+
+<p><code>checkWithAppkey:</code> 方法用于检查是否有新回复，如果有新回复可以通知用户去查看，异步方法。</p>
+
+<p>当<code>checkWithAppkey:</code>完成时需要去监听<code>UMFBCheckFinishedNotification</code>。</p>
+
+<p><code>newReplies</code>通过<code>notification.userInfo</code>被传递过来。</p>
+
+<p><code>newReplies</code> 大部分情况下都为<code>nil</code>,只在当次有新回复时才有值。</p>
+
+<p><code>newReplies</code>不为空可以提示用户有新回复, <code>newReplies</code>的长度就是新回复的条数。</p>
+
+<blockquote><p>Demo</p></blockquote>
+
+<pre><code>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(umCheck:) name:UMFBCheckFinishedNotification object:nil];
+
+----------------------------------------------------
+
+- (void)umCheck:(NSNotification *)notification {
+    UIAlertView *alertView;
+    NSLog(@"notification = %@", notification.userInfo);
+    if (notification.userInfo) {
+        NSArray * newReplies = [notification.userInfo objectForKey:@"newReplies"];
+        NSLog(@"newReplies = %@", newReplies);
+        NSString *title = [NSString stringWithFormat:@"有%d条新回复", [newReplies count]];
+        NSMutableString *content = [NSMutableString string];
+        for (int i = 0; i &lt; [newReplies count]; i++) {
+            NSString * dateTime = [[newReplies objectAtIndex:i] objectForKey:@"datetime"];
+            NSString *_content = [[newReplies objectAtIndex:i] objectForKey:@"content"];
+            [content appendString:[NSString stringWithFormat:@"%d .......%@.......\r\n", i+1,dateTime]];
+            [content appendString:_content];
+            [content appendString:@"\r\n\r\n"];
+        }
+
+        alertView = [[UIAlertView alloc] initWithTitle:title message:content delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"查看", nil];
+        ((UILabel *) [[alertView subviews] objectAtIndex:1]).textAlignment = NSTextAlignmentLeft ;
+
+    }else{
+        alertView = [[UIAlertView alloc] initWithTitle:@"没有新回复" message:nil delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:nil];
+    }
+    [alertView show];
+}
+</code></pre>
+
+<h2>3. 常见问题</h2>
+
+<h3>1.推送服务</h3>
+
+<p>SDK暂不支持APNS,只能通过定时执行<code>checkWithAppkey:</code>方法来实现。</p>
+
+<h3>2.程序未打开反馈界面时弹出新回复提示</h3>
+
+<p>可以在任何时候执行<code>checkWithAppkey:</code>方法，检查<code>newReplies</code>判断是否有新回复。
+要做到这点需要在<code>appDelegate</code>里调用<code>checkWithAppkey:</code>。</p>
+
+<h3>3.我想发送反馈时带上用户的id和用户名</h3>
+
+<p><code>post:</code>方法可以传递<code>remark</code>和<code>contact</code>这两个名称的NSDictionary *, 你需要把id和用户名等放到这两个字段里。</p>
+
+<h3>4.用你们的数据接口可以完成一个全功能、Native的反馈组件吗？</h3>
+
+<p>可以，Demo工程提供了一个简单例子，您可以在上面稍作扩展来实现。</p>
+
+<h3>5.Native数据接口如果做多语言支持？</h3>
+
+<p>数据接口和UI时完全分离的，您直接使用iOS自带的多语言方案即可，和数据接口基本无关。</p>
+
+<h3>6.Native数据接口有缓存吗？</h3>
+
+<p>有，生成<code>sharedInstance</code> 单例时， <code>topicAndReplies</code> 默认会从<code>NSUserDefaults</code>缓存取。</p>
+
+<p>当执行<code>get</code>或<code>checkWithAppkey:</code>时缓存会同步更新。</p>
+
+<h3>7.我该选择HTML版本还是Native接口？</h3>
+
+<p>各有优缺，看自己的需求。</p>
+
+<ul>
+<li><p>HTML版本的优点：定制容易，html，css，javascript修改简单，本身已经支持中英文的反馈界面。</p>
+
+<p>HTML版本的缺点：速度慢，尤其是低端配置。</p></li>
+<li><p>Native接口的优点：速度快，灵活，可以完全掌握UI实现。</p>
+
+<p>Native接口的缺点：实现复杂，多语言支持等需要自己来做。</p></li>
+</ul>
+
+
+<h3>8.HTML版本怎么调试？</h3>
+
+<p>参考 <a href="http://www.iwebinspector.com/">http://www.iwebinspector.com/</a></p>
+
+<h3>9.反馈SDK支持哪些iOS系统？</h3>
+
+<p>iOS4---iOS6。</p>
+
+<h3>10.如何使用Native接口的字段？</h3>
+
+<p>构造反馈列表一般三个字段就够了。</p>
+
+<ul>
+<li>type： 回复类型，user_reply(用户回复) dev_reply(开发者回复)</li>
+<li>content： 反馈内容</li>
+<li>datetime： 反馈时间</li>
+</ul>
+
+
+<p>发表反馈时<code>content</code>为必填字段。</p>
+</body>
+</html>
